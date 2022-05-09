@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey_Form</title>
+	<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+</head>
+<body>
+<div class="heading">
+	<h1 id="head">Company Recruitment Survey Form</h1>
+	<h2 id="subheading"><i>Your Feedback is utmost important for Us.Thank You for your time to help us improve better</i></h2>
+</div>
+<form>
+	<div id="content1">
+		<label>Full Name:</label><br><br>
+		<input type="name" name="name" placeholder="eg:Rahul,Sunny etc" class="box"><br><br>
+		<label>Email:</label><br><br>
+		<input type="email" name="email" placeholder="eg:xyz@gmail.com" class="box"><br><br>
+		<label>Contact Number:</label><br><br>
+		<input type="Number" name="Number" placeholder="India:+91" class="box"><br><br>
+		<label>Age(optional):</label><br><br>
+		<input type="age" name="age" placeholder=">=21 & <=41" class="box"><br><br>
+		<label>Which option best describes your current role?</label><br><br>
+	<div id="option1">
+		<select>
+			<option name="Select Your Role">Select Your Role</option>
+			<option value="Student">Student</option>
+			<option value="Full Time Job">Full Time Job</option>
+			<option value="Fresher(0-1) Experience">Fresher(0-1) Experience</option>
+			<option value="Prefer not to Say">Prefer not to Say</option>
+			<option value="Other">Other</option>
+		</select>
+	</div>
+	<br>
+	<label id="head1">Would You Recommend Your Friends to fill this Survey Form ?</label><br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+		<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>
+		<label>For which Position You are Applying For or which profile matches your interest?</label><br>
+		<div id="option2">
+			<select>
+				<option name="Select an option">Select any one:</option>
+			    <option value="Full Stack Developer">Full Stack Developer</option>
+			    <option value="Technical Trainee">Technical Trainee</option>
+			    <option value="Software Engineer Intern">Software Engineer Intern</option>
+			    <option value="Backend Developer">Backend Developer</option>
+			    <option value="Tester/QA">Testing and QA</option>
+			</select>
+</div>
+<br><br>
+<label id="head2">How many Programming Languages/Frameworks/Libraries have you worked on in your recent projects? (Feel Free to mark all your relevant CS skills)</label><br><br>
+<div id="content2">
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspFrontEnd Technologies: HTML CSS JavaScript</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspBackEnd Technologies: NodeJs ExpressJs</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspDatabases: MySql mongoDB NoSql(Any one)</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspProgramming Languages: C C++ Java Python(Any one)</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspFrameworks/Libraries: ReactJs Angular Django Jquery BootStrap4(Any one)</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCS Fundamentals: OOPS OS DBMS CN(Any one)</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspDeveloper Tools Used: VSCode GitHub(Any one)</label><br><br>
+	<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspKnowledge of Data Structures and Algorithms is a Plus</label><br><br>
+</div>
+<label id="head2">Any comments or suggestions?</label><br><br>
+<textarea placeholder="Start Typing........"></textarea><br>
+<button><h3>Submit</h3></button>
+</form>
+</body>
+</html>>
